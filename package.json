@@ -1,18 +1,19 @@
 {
-  "name": "seeuletter",
-  "description": "Seeuletter API wrapper",
+  "name": "mysendingbox",
+  "description": "Mysendingbox API wrapper",
   "keywords": [
-    "Seeuletter",
-    "Seeuletter-node",
+    "Mysendingbox",
+    "Mysendingbox-node",
     "rest",
+    "exaland",
     "api",
     "wrapper",
-    "Seeuletter.com",
+    "Mysendingbox.com",
     "printing"
   ],
-  "version": "1.5.2",
-  "homepage": "https://github.com/seeuletter/seeuletter-node",
-  "author": "Seeuletter <hello@seeuletter.com> (https://www.seeuletter.com/)",
+  "version": "1.0.2",
+  "homepage": "https://github.com/exaland/mysendingbox-node",
+  "author": "Exaland Concept For -> Mysendingbox <hello@mysendingbox.fr> (https://www.mysendingbox.fr/)",
   "dependencies": {
     "bluebird": "^3.5.5",
     "flat": "^4.1.0",
@@ -23,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seeuletter/seeuletter-node.git"
+    "url": "https://github.com/exaland/mysendingbox-node.git"
   },
-  "bugs:": "https://github.com/seeuletter/seeuletter-node/issues",
+  "bugs:": "https://github.com/exaland/mysendingbox-node/issues",
   "main": "./lib/index",
   "engines": {
     "node": ">= 0.10.0"

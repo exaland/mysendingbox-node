@@ -1,16 +1,16 @@
-# seeuletter-node
+# mysendingbox-node
 
-[downloads-image]: http://img.shields.io/npm/dm/seeuletter.svg
-[npm-url]: https://npmjs.org/package/seeuletter
-[npm-image]: https://badge.fury.io/js/seeuletter.svg
+[downloads-image]: http://img.shields.io/npm/dm/mysendingbox.svg
+[npm-url]: https://npmjs.org/package/mysendingbox
+[npm-image]: https://badge.fury.io/js/mysendingbox.svg
 
-[![NPM version][npm-image]][npm-url] [![Dependency Status](https://gemnasium.com/badges/github.com/seeuletter/seeuletter-node.svg)](https://gemnasium.com/github.com/seeuletter/seeuletter-node)
+[![NPM version][npm-image]][npm-url] [![Dependency Status](https://gemnasium.com/badges/github.com/exaland/mysendingbox-node.svg)](https://gemnasium.com/github.com/exaland/mysendingbox-node)
 
 
 
-Seeuletter.com Node.js Client is a simple but flexible wrapper for the [Seeuletter.com](https://www.seeuletter.com) API.
+MySendingBox.com Node.js Client is a simple but flexible wrapper for the [MySendingBox.fr](https://www.mysendingbox.fr) API.
 
-See full Seeuletter.com documentation [here](https://docs.seeuletter.com/).
+See full Seeuletter.com documentation [here](https://docs.mysendingbox.fr/).
 
 For best results, be sure that you're using the latest version of the Seeuletter API and the latest version of the Node.js wrapper.
 
@@ -21,9 +21,9 @@ Seeuletter propose une API permettant d'envoyer très facilement du courrier pos
 
 Pas de frais d'installation. Pas d'engagement. Vous payez ce que vous consommez.
 
-Documentation : https://docs.seeuletter.com/
+Documentation : https://docs.mysendingbox.fr/
 
-Bien démarrer : https://www.seeuletter.com/guide/bien-demarrer-avec-l-api-d-envoi-de-courrier
+Bien démarrer : https://www.mysendingbox.fr/guide/bien-demarrer-avec-l-api-d-envoi-de-courrier
 
 ## Table of Contents
 
@@ -40,27 +40,27 @@ Bien démarrer : https://www.seeuletter.com/guide/bien-demarrer-avec-l-api-d-env
 
 Here's a general overview of the Seeuletter services available, click through to read more.
 
-Please read through the official [API Documentation](https://docs.seeuletter.com/) to get a complete sense of what to expect from each endpoint.
+Please read through the official [API Documentation](https://docs.mysendingbox.fr/) to get a complete sense of what to expect from each endpoint.
 
 ### Registration
 
-First, you will need to first create an account at [Seeuletter.com](https://www.seeuletter.com/signup) and obtain your Test and Live API Keys.
+First, you will need to first create an account at [Seeuletter.com](https://www.mysendingbox.fr/signup) and obtain your Test and Live API Keys.
 
-Once you have created an account, you can access your API Keys from the [Settings Panel](https://www.seeuletter.com/app/dashboard/keys).
+Once you have created an account, you can access your API Keys from the [Settings Panel](https://www.mysendingbox.fr/app/dashboard/keys).
 
 
 ### Installation
 
-seeuletter-node can be installed through the npm:
+mysendingbox-node can be installed through the npm:
 
 ```
-$ npm install -S seeuletter
+$ npm install -S mysendingbox
 ```
 
 To build and install from the latest source:
 
 ```
-$ git clone git@github.com:Seeuletter/seeuletter-node.git
+$ git clone git@github.com:exaland/mysendingbox-node.git
 $ npm install
 ```
 
@@ -202,7 +202,7 @@ Seeuletter.postcards.create({
     address_country: 'France',
     address_postalcode: '75004'
   },
-  // https://www.seeuletter.com/templates
+  // https://www.mysendingbox.fr/templates
   source_file_front: 'YOUR TEMPLATE ID',
   source_file_front_type: 'template_id',
   source_file_back: 'YOUR TEMPLATE ID',
@@ -308,14 +308,8 @@ Seeuletter.invoices.retrieve("INVOICE ID")
 
 ```
 
-
-## Examples
-
-We've provided various examples for you to try out [here](https://github.com/seeuletter/seeuletter-node/tree/master/examples).
-
-
 =======================
 
-Copyright &copy; 2017 Seeuletter.com
+Copyright &copy; 2025 Exaland.app
 
 Released under the MIT License, which can be found in the repository in `LICENSE.txt`.
