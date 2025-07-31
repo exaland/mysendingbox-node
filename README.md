@@ -455,7 +455,7 @@ console.log('Error message : ',  err.message)
   
 
 ```
-### Price (new update from Exaland)
+### Price
 
   
 
