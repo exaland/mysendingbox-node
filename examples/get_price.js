@@ -1,6 +1,5 @@
 'use strict'
 
-const { post } = require('request')
 /*
  * List an array of company invoices, depending on example options
  * After, retrieve a single invoice with _id
