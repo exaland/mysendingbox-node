@@ -1,7 +1,7 @@
 
 # mysendingbox-node
 
-  
+  [![Node.js Package](https://github.com/exaland/mysendingbox-node/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/exaland/mysendingbox-node/actions/workflows/npm-publish.yml)
 
 [downloads-image]: http://img.shields.io/npm/dm/mysendingbox.svg
 
