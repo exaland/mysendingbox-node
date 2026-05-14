@@ -138,7 +138,7 @@ $ npm install
 
 ```javascript
 
-var  Seeuletter  =  require('seeuletter')('YOUR API KEY');
+var  Seeuletter  =  require('mysendingbox')('YOUR API KEY');
 
   
 
